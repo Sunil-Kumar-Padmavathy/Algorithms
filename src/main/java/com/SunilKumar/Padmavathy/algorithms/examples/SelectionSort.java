@@ -19,7 +19,7 @@ public class SelectionSort {
 				+ LocalDateTime.now());
 		System.out.println("available number of cores-->" + Runtime.getRuntime().availableProcessors());
 		sort(unsortedList).stream().forEach(System.out::println);
-		System.out.println("Time end WITH Steam---->" + LocalDateTime.now());
+		System.out.println("Time end WITH Stream---->" + LocalDateTime.now());
 	}
 
 	private static Set<Integer> sort(List<Integer> inputList) {
